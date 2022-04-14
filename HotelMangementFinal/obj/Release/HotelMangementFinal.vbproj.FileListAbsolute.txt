@@ -1,0 +1,47 @@
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\bin\Release\HotelMangementFinal.exe
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\bin\Release\HotelMangementFinal.pdb
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\bin\Release\HotelMangementFinal.xml
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.checkinlist.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.FormCheckin.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formCheckinlist.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formroomslist.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.FormSearch.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.FromReserve.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.GuestInfo.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.LoginForm.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.Resources.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.vbproj.GenerateResource.Cache
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.exe
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.xml
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.pdb
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formcashier.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.checkoutlist.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formhistory.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\bin\Release\HotelMangementFinal.exe.manifest
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\bin\Release\HotelMangementFinal.application
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.exe.manifest
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.application
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.MainForm.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.RoomStatus.resources
+C:\Users\Andrew Braza\Desktop\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.AddEmployee.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.vbproj.AssemblyReference.cache
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.AddEmployee.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.checkinlist.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.checkoutlist.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formcashier.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.FormCheckin.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formCheckinlist.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formhistory.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.formroomslist.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.FormSearch.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.FromReserve.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.GuestInfo.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.LoginForm.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.MainForm.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.Resources.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.RoomStatus.resources
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.vbproj.GenerateResource.cache
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.exe
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.xml
+F:\Softwares Development\C#\C# Tamplets Projects\HotelMangementFinal\HotelMangementFinal\obj\Release\HotelMangementFinal.pdb

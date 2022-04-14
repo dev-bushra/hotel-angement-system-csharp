@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F36C000-8B8B-4022-A540-7D7B42199CFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>HotelMangementFinal.My.MyApplication</StartupObject>
+    <RootNamespace>HotelMangementFinal</RootNamespace>
+    <AssemblyName>HotelMangementFinal</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ManifestCertificateThumbprint>E22F49CEBC19A9D872AF3ED4EF6A1A0B1BC67B1A</ManifestCertificateThumbprint>
+    <ManifestKeyFile>HotelMangementFinal_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Andrew Braza\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HotelMangementFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HotelMangementFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEmployee.Designer.vb">
+      <DependentUpon>AddEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkinlist.Designer.vb">
+      <DependentUpon>checkinlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="checkinlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkoutlist.Designer.vb">
+      <DependentUpon>checkoutlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="checkoutlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formcashier.Designer.vb">
+      <DependentUpon>formcashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formcashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckin.Designer.vb">
+      <DependentUpon>FormCheckin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCheckin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCheckinlist.Designer.vb">
+      <DependentUpon>formCheckinlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formCheckinlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formhistory.Designer.vb">
+      <DependentUpon>formhistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formhistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formroomslist.Designer.vb">
+      <DependentUpon>formroomslist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formroomslist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearch.Designer.vb">
+      <DependentUpon>FormSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromReserve.Designer.vb">
+      <DependentUpon>FromReserve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromReserve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuestInfo.Designer.vb">
+      <DependentUpon>GuestInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuestInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotelmodule.vb" />
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RoomStatus.Designer.vb">
+      <DependentUpon>RoomStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RoomStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkinlist.resx">
+      <DependentUpon>checkinlist.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkoutlist.resx">
+      <DependentUpon>checkoutlist.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formcashier.resx">
+      <DependentUpon>formcashier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheckin.resx">
+      <DependentUpon>FormCheckin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCheckinlist.resx">
+      <DependentUpon>formCheckinlist.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formhistory.resx">
+      <DependentUpon>formhistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formroomslist.resx">
+      <DependentUpon>formroomslist.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearch.resx">
+      <DependentUpon>FormSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromReserve.resx">
+      <DependentUpon>FromReserve.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestInfo.resx">
+      <DependentUpon>GuestInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomStatus.resx">
+      <DependentUpon>RoomStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuestIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphicloads-Colorful-Long-Shadow-Check-3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accept-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserved1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log_off-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d8d47af9059b6b3f12e47ea6014c966d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-single-connected-room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settingsrotate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-1-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012_power-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012_power-512red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-infrastructure-monitoring-systems.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WooCommerce-Checkout-Files-Upload-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEARCH_AND_RESERVE_ICON-01-300x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quest1-Icon-1024x1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monbela-tourist-inn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monbela-tourist-inn1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 Monbela Tourist Inn Kabankalan City, Negros Occidental Philippines.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-circles-ttt-06.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

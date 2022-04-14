@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="HotelMangementFinal.exe" version="1.0.0.0" publicKeyToken="1661e88a5448b328" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HotelMangementFinal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HotelMangementFinal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HotelMangementFinal.exe" size="1134080">
+      <assemblyIdentity name="HotelMangementFinal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>2ZlkjkCKoU70egOJBTIDLVUnOMA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=AndrewBraza-PC\Andrew Braza" issuerKeyHash="a70f7910271605afaa312e655aaf07e532429413" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>qQjHk+HsKU0wQh8gURLHxvUr+B0=</DigestValue></Reference></SignedInfo><SignatureValue>AODXbMqRGGye7GkcdPh3+1e1m5E9WmhC9UYixVnTIpM7/uQ731NzujZfInE1twqnsQ/Qpg9BmfC0vqdhvqYF8RQCBKdv+X2BbdXSnWtFnRv9WlOWq1gJj4hK1mmzTGmAU9Tow4reEMdrfqL40nzRGrBsycHYb2Rqmcu6DOX9BYw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wMWTDxReDdu+m8CIiz3+qYcxbXA3DgvFabDEgWG0qalfSQIDU+W3cN9wqH2dxhrjYoKfsbnxsEevSmCNAuC8swniYqbv7qXTUEFJXwcbkenG1dGqWuDB57H3F0DtTSn1xw3yDr1wSopbWU5GmPjtptZVvxtqUX9bqE2JibiQVuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1df82bf5c6c71251201f42304d29ece193c708a9" Description="" Url=""><as:assemblyIdentity name="HotelMangementFinal.exe" version="1.0.0.0" publicKeyToken="1661e88a5448b328" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AndrewBraza-PC\Andrew Braza</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GrjDXmtRyJAYaC0z5DqNB+CkaDE=</DigestValue></Reference></SignedInfo><SignatureValue>UNrwaIovULuD01dpLfAVXhX0C+303wq/zqRQ+Rf/q3PqZXhkQekObIqbTHZ0P38PNIC3zIMR0OyIrE5kcYUISy+ik0RuZZrSRNxNe3kFi0xJshrS39Yr87sko1VRPzmhW+IOrqs+82LzzcI0jvcDPDCvo0xafjgv4y6eb1k7IV0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wMWTDxReDdu+m8CIiz3+qYcxbXA3DgvFabDEgWG0qalfSQIDU+W3cN9wqH2dxhrjYoKfsbnxsEevSmCNAuC8swniYqbv7qXTUEFJXwcbkenG1dGqWuDB57H3F0DtTSn1xw3yDr1wSopbWU5GmPjtptZVvxtqUX9bqE2JibiQVuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQfq+9RgoprrxJ6cMSsJzhZzANBgkqhkiG9w0BAQUFADBBMT8wPQYDVQQDHjYAQQBuAGQAcgBlAHcAQgByAGEAegBhAC0AUABDAFwAQQBuAGQAcgBlAHcAIABCAHIAYQB6AGEwHhcNMTcwMjA0MjI1OTQ0WhcNMTgwMjA1MDQ1OTQ0WjBBMT8wPQYDVQQDHjYAQQBuAGQAcgBlAHcAQgByAGEAegBhAC0AUABDAFwAQQBuAGQAcgBlAHcAIABCAHIAYQB6AGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMDFkw8UXg3bvpvAiIs9/qmHMW1wNw4LxWmwxIFhtKmpX0kCA1Plt3DfcKh9ncYa42KCn7G58bBHr0pgjQLgvLMJ4mKm7+6l01BBSV8HG5HpxtXRqlrgweex9xdA7U0p9ccN8g69cEqKW1lORpj47abWVb8balF/W6hNiYm4kFbpAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAL2DgKCrPGdKLlq8v582y4su+Z3X3rVM3RDc5ak/eWACboZO7JBH8IVgGGdDOzzIpfj6/wzRv7dmv90VI4aGZng0EnEPbKWbT8S3o4gODFBo9ky5OabqCPxJG/K5c8+pCeeUTv2i6Dp/cXcKyJTwPBozcq0EZ2/HhA7HwX0kaMgc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
